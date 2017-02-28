@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<button ion-button color="dark" (click)="takePhoto()">Take Photo</button>
+	<img [src]="imageURL" *ngIf="imageURL" />
+</ion-content>
