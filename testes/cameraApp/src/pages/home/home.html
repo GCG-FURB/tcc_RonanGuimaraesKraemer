@@ -1,12 +1,12 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-title>Home</ion-title>
   </ion-navbar>
 </ion-header>
-
-<ion-content padding>
-	<button ion-button color="dark" (click)="takePhoto()">Take Photo</button>
-	<img [src]="imageURL" *ngIf="imageURL" />
+ 
+<ion-content padding class="home">
+  <img [src]="_DomSanitizationService.bypassSecurityTrustUrl(cameraData)" *ngIf="photoTaken">
+  <img [src]="cameraUrl" *ngIf="photoSelected">
+  <button block (click)="openCamera()">Open camera</button>
+  <button block (click)="selectFromGallery()">Select from gallery</button>
 </ion-content>
