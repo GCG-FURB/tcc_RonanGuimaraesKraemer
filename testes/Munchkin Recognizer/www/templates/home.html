@@ -1,0 +1,18 @@
+<ion-view title="Notes" ng-controller="HomeController as home_ctrl">
+	<header class="bar bar-header bar-stable">
+		<h1 class="title">Munchkin Recognizer</h1>
+	</header>
+
+	<ion-content class="has-header padding">
+		<img src="{{ home_ctrl.current_image }}" class="picture" ng-show="home_ctrl.current_image">
+    <h3 class="text-center" ng-show="home_ctrl.image_description">{{ home_ctrl.image_description }}</h3>
+
+    <button class="button button-positive button-block" ng-click="takePicture()">
+		Take Picture
+		</button>
+    <button class="button button-positive button-block" ng-click="repeat()" ng-show="home_ctrl.card_desc">
+		Repeat
+		</button>
+	</ion-content>
+
+</ion-view>
