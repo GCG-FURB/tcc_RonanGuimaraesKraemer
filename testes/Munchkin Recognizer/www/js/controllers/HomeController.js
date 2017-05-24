@@ -191,7 +191,7 @@
 				var file_contents = JSON.stringify(vision_api_json);
 
 				$cordovaFile.writeFile(
-					cordova.file.applicationStorageDirectory,
+					cordova.file.cacheDirectory,
 					'file.json',
 					file_contents,
 					true
@@ -204,7 +204,7 @@
 					options.headers = headers;
 
 					var server = 'https://vision.googleapis.com/v1/images:annotate?key=' + api_key;
-					var filePath = cordova.file.applicationStorageDirectory + 'file.json';
+					var filePath = cordova.file.cacheDirectory + 'file.json';
 
 					$cordovaFileTransfer.upload(server, filePath, options, true)
 				  		.then(function(result){
@@ -226,8 +226,8 @@
 					  });
 
 				}, function(err){
-          alert('An error occured while writing to the file');
-        });
+         			alert('An error occured while writing to the file');
+        		});
 
 			}, function(err){
 			  alert('An error occured getting the picture from the camera');
