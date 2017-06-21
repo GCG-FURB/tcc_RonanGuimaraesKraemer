@@ -1,4 +1,4 @@
-ÔªøPara realizar a compila√ß√£o deste projeto deve-se:
+Para realizar a compilaÁ„o deste projeto deve-se:
 
 Primeiramente, configurar o ambiente de desenvolvimento para a plataforma desejada de acordo com o tutorial:
 
@@ -10,8 +10,8 @@ Iniciar um projeto em branco ionic com o comando:
 
 ionic start <nome-projeto> blanck
 
-Ap√≥s isso, deve-se copiar e colar todos os arquivos da pasta Munchkin Recognizer para dentro do projeto, sobstituindo todos os arquivos com mesmo nome.
-Obs.: Deve-se verificar a vers√£o do projeto, pois o mesmo deve ser 1.0 para que o projeto seja compilado.
+ApÛs isso, deve-se copiar e colar todos os arquivos da pasta Munchkin Recognizer para dentro do projeto, sobstituindo todos os arquivos com mesmo nome.
+Obs.: Deve-se verificar a vers„o do projeto, pois o mesmo deve ser 1.0 para que o projeto seja compilado.
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -58,12 +58,12 @@ ionic run android
 ionic build ios
 ionic run ios
 
-Obs.: O build e a execu√ß√£o para iOS ir√° apenas funcionar em computadores com macOS
+Obs.: O build e a execuÁ„o para iOS ir· apenas funcionar em computadores com macOS
 
 ------------------------------------------------------------------------------------------------------------
 
-Seguindo estes passos, a aplica√ß√£o ir√° executar e abrir√° em qualquer dispositivo android ou iOS. Por√©m, o aplicativo n√£o funcionar√° 100% pois necessita da api_key para realizar o reconhecimento de texto e da apiKey para autorizar os dispositivos iOS em utilizar o reconhecimento de voz.
-Para adquirir as chaves necess√°rias, basta seguir os seguintes tutoriais:
+Seguindo estes passos, a aplicaÁ„o ir· executar e abrir· em qualquer dispositivo android ou iOS. PorÈm, o aplicativo n„o funcionar· 100% pois necessita da api_key para realizar o reconhecimento de texto e da apiKey para autorizar os dispositivos iOS em utilizar o reconhecimento de voz.
+Para adquirir as chaves necess·rias, basta seguir os seguintes tutoriais:
 
 Google Cloud Vision: https://www.sitepoint.com/image-recognition-with-the-google-vision-api-and-ionic/
 iSpeech: https://github.com/macdonst/SpeechRecognitionPlugin
