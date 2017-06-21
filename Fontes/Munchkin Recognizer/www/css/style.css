@@ -1,0 +1,19 @@
+.text-center {
+	text-align: center;
+}
+
+.picture {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.large_button {
+  line-height: 60vh !important;
+    width: 50%;
+    top: 15%;
+  border-radius: 100px;
+}
+
+.icon_custom {
+  font-size: 70px;
+}

@@ -1,0 +1,592 @@
+{
+    "CartasArray":[
+        {
+                "nome":"ANAO",
+                "desc":"Anão. Carta do tipo Raça.  Atributos:. Você pode carregar um número qualquer de Itens Grandes. Você pode ficar com 6 cartas na mão no final de seu turno."
+        },
+        {
+                "nome":"INTERVENCAO DIVINA",
+                "desc":"Invervenção Divina.  Carta do tipo Efeito.  Efeito:.  Independente de quem tiver comprado essa carta ou como a tiver comprado, todos os Clérigos ganham, imediatamente, um nível.  Se isso fizer o jogo terminar, o vencedor poderá zoar os outros jogadores sem dó nem piedade."
+        },
+        {
+                "nome":"LESMAS VELOZES",
+                "desc":"Lesmas Velozes.  Carta do tipo Monstro nível 4.  menos dois para fugir.  Coisa Ruim:.  Elas roubam seu tesouro.  Jogue um dado. Você perde aquela quantidade de itens ou cartas de sua mão. Você decide quais.  Ao derrotá-lo, ganha 1 nível e 2 tesouros."
+        },
+        {
+                "nome":"MALDICAO Perca armadura",
+                "desc":"Maldição!.  Carta do tipo Maldição.  Efeito:.  Perca a armadura que estiver usando."
+        },
+        {
+                "nome":"MALDICAO MUDANCA DE RACA",
+                "desc":"Maldição! Mudança de raça.  Carta do tipo Maldição.  Efeito:.  Se você não tiver nenhuma raça neste momento, esta maldição não tem efeito.  Caso contrário, procure, a partir do topo, uma carta de Raça na pilha de descarte. A primeira carta de raça que aparecer substitui sua(s) Raça(s). Se não encontrar nenhuma carta de raça na pilha de descarte, você simplesmente perde sua(s) raça(s)."
+        },
+        {
+                "nome":"GOBLIN ALEIJADO",
+                "desc":"Goblin Aleijado.  Carta do tipo Monstro nível 1.  mais um para fugir.  Coisa Ruim:. Ele te arrebenta com a muleta. Você perde um nível. Ao derrotá-lo, ganha 1 nível e 1 tesouro."
+        },
+        {
+                "nome":"RATRICINHA COM PORRETE",
+                "desc":"Ratricinha com porrete.  Carta do tipo Monstro nível 1.  Uma criatura do inferno.  mais 3 contra clérigos.  Coisa Ruim:. Ela te detona  Você perde um nível.  Ao derrotá-la, ganha 1 nível e 1 tesouro."
+        },
+        {
+                "nome":"BALROG",
+                "desc":"Balrog.  Carta do tipo Monstro nível 18.  não persegue personagens de nível 4 ou menos.  Coisa Ruim:. Você é esfolado até a morte.  Ao derrotá-lo, ganha 2 níveis e 5 tesouros."
+        },
+        {
+                "nome":"BONECO PALITO",
+                "desc":"Bonec Palito.  Carta do tipo Monstro nível 1.  Sempre tiveram mania de Halflings.  Mais 4 contra Halflings. Coisa Ruim:. Os Bonecos não tem sexo e, agora, você também não tem. Não é nem masculino nem feminino até que outro jogador mude sexo Nesse momento você volta a ter o mesmo sexo de antes.  Ao derrotá-lo, ganha 1 nível e 1 tesouros."
+        },
+        {
+                "nome":"PAGA PAU DE VAMPIRO",
+                "desc":"Paga pau de vampiro.  Carta do tipo Monstro nível 12.  Em vez de combatê-lo, um clérigo pode afugentar um paga pau de vampiro gritando Buuuuuuu, buuuuuuuu! e pegar todo o seu tesouro Ele não ganha nenhum nível por fazer isso!.  Coisa Ruim:. Ele tranca a porta e começa a te falar sobre a vida do seu personagem. Você perde 3 níveis.  Ao derrotá-lo, ganha 1 nível e 3 tesouros."
+        },
+        {
+                "nome":"CLERIGO",
+                "desc":"Clérigo.  Carta do tipo Classe.  Atributos:. Ressurreição:. Quando você for pegar uma carta aberta, em vez disso você pode comprar a carta do topo da pilha de descarte apropriada Depois você tem que descartar uma carta de sua mão  Espantar:.   Você pode descartar até 3 cartas durante um combate contra um morto-vivo. Cada Carta descartada lhe dá mais 3 de bônus."
+        },
+        {
+                "nome":"MALDICAO PERCA 1 ITEM PEQUENO",
+                "desc":"Maldição! Perca um Item Pequeno.  Carta do tipo Maldição.  Efeito:. Escolha 1 item pequeno e o descarte   Qualquer item que não estiver designado como Grande é Pequeno."
+        },
+        {
+                "nome":"MALDICAO PERCA SUA CLASSE",
+                "desc":"Maldição! Perca sua classe.  Carta do tipo Maldição.  Efeito:. Descarte sua carta de Classe, se tiver uma.   Se você tiver 2 Classes em jogo, você perde uma delas (à sua escolha).   Se não tiver nenhuma classe, você perde 1 Nível."
+        },
+        {
+                "nome":"HORROR ATERRORIZANTE INDESCRITIVELMENTE INDESCRITIVEL",
+                "desc":"Horro Aterrorizante Indescritivelmente Indescritível!.  Carta do tipo Monstro nível 14.  mais 4 contra Guerreiros.   Coisa Ruim:.  Uma morte indescritivelmente terrível aguarda a todos que não forem Magos   Um mago perde seus poderes. Descarte a carta de mago.  Ao derrotá-lo, ganha 1 nível e 4 tesouros."
+        },
+        {
+                "nome":"NARIZ FLUTUANTE",
+                "desc":"Nariz Flutuante.  Carta do tipo Monstro nível 10.  Não é uma ideia lutar contra o Nariz flutuante. Você pode suborná-lo com um item que valha no mínimo 200 peças de ouro que ele o deixará em paz. Coisa Ruim:.   Ele é capaz de farejá-lo em qualquer lugar. Se perder, você não conseguirá fugir Nada irá ajudá-lo Você perde 3 níveis.  Ao derrotá-lo, ganha 1 nível e 3 tesouros."
+        },
+        {
+                "nome":"CAJADO DE NAPALM",
+                "desc":"Cajado de Napalm.  Carta Tesouro do tipo item .  É um item de uma mão e Custa 800 peças de ouro . Só pode ser usado por magos e concede mais 5 de bônus ao usuário."
+        },
+        {
+                "nome":"ESCADA DE MAO",
+                "desc":"Escada de Mão.  Carta Tesouro do tipo item  .  É um item grande e Custa 400 peças de ouro . Só pode ser usado por halflings e concede mais 3 de bônus ao usuário."
+        },
+        {
+                "nome":"CHAPEU DE BRUXO DO PODER",
+                "desc":"Chapéu de Bruxo do Poder.   Carta Tesouro do tipo item  .  É um item para cabeça e Custa 400 peças de ouro . Só pode ser usado por Magos e concede mais 3 de bônus ao usuário."
+        },
+        {
+                "nome":"COCAO DE PONFUSAO",
+                "desc":"Coção de Ponfusão.   Carta Tesouro do tipo poção  .  É uma poção que Custa 100 peças de ouro . Use durante qualquer combate.  Da mais 3 de bônus para qualquer um dos lados   Uso Único."
+        },
+        {
+                "nome":"ARMADURA FLAMEJANTE",
+                "desc":"Armadura Flamejante.   Carta Tesouro do tipo item  .  É um item para o corpo e Custa 400 peças de ouro .  Concede mais 2 de bônus ao usuário."
+        },
+        {
+                "nome":"SANDALIAS DA PROTECAO",
+                "desc":"Sandálias da Proteção!.   Carta Tesouro do tipo item  .  É um item para os pés e Custa 700 peças de ouro .  As cartas de maldição que você comprar quando abrir uma porta não tem efeito. As maldições que os outros jogadores lançarem sobre você continuarão funcionando."
+        },
+        {
+                "nome":"ESPADA BASTARDA TRAICOEIRA",
+                "desc":"Espada Bastarda Traiçoeira.   Carta Tesouro do tipo item  .  É um item para uma mão e Custa 400 peças de ouro .  Concede mais 2 de bônus ao usuário."
+        },
+        {
+                "nome":"POCAO DO SONO",
+                "desc":"Poção do Sono.   Carta Tesouro do tipo poção  .  É uma poção que Custa 100 peças de ouro . Use durante qualquer combate.  Da mais 2 de bônus para qualquer um dos lados   Uso Único."
+        },
+        {
+                "nome":"RALADOR DE QUEIJO DA PAZ",
+                "desc":"Ralador de Queijo da Paz.   Carta Tesouro do tipo item  .  É um item uma mão e Custa 400 peças de ouro . Só pode ser usado por clérigos e concede mais 3 de bônus ao usuário."
+        },
+        {
+                "nome":"ARMADURA RECHONCHUDA",
+                "desc":"Armadura Rechonchuda.   Carta Tesouro do tipo item  .  É um item para o corpo e Custa 400 peças de ouro . Só pode ser usada por anões e concede mais 3 de bônus ao usuário."
+        },
+        {
+                "nome":"LANCA MUITO GRANDE",
+                "desc":"Lança Muito Grande.   Carta Tesouro do tipo item  .  É um item para duas mãos e Custa 200 peças de ouro .  Concede mais 1 de bônus ao usuário."
+        },
+        {
+                "nome":"BROQUEL DA BRAVATA",
+                "desc":"Broquel da Bravata.   Carta Tesouro do tipo item  .  É um item para uma mão e Custa 400 peças de ouro .  Concede mais 2 de bônus ao usuário."
+        },
+        {
+                "nome":"POCAO DA INVISIBILIDADE",
+                "desc":"Poção da Invisibilidade.   Carta Tesouro do tipo poção  .  É uma poção que Custa 200 peças de ouro . Descarte esta carta quando sua tentativa de fugir falhar. Você escapa automaticamente   Uso Único."
+        },
+        {
+                "nome":"ROUBAR 1 NIVEL",
+                "desc":"Roubar 1 nível.   Carta Tesouro do tipo Subir de nível  .   Escolha um jogador para você roubar 1 nível   Você ganha um e ele perde um."
+        },
+        {
+                "nome":"VARINHA DE ZAHORI",
+                "desc":"Varinha de Zahori.   Carta Tesouro do tipo item  .  É um item de uso único e Custa 1100 peças de ouro .  Procure na pilha de descarte qualquer carta que você quiser Fique com aquela carta e descarte esta."
+        },
+        {
+                "nome":"LAMPADA MAGICA",
+                "desc":"Lâmpada Mágica.   Carta Tesouro do tipo item  .  É um item de uso único e Custa 500 peças de ouro .  Você pode usar a lâmpada durante seu próprio turno. Ela invoca um gênio que faz um único monstro desaparecer, mesmo que você já tenha falhado em sua tentativa de fugir e o monstro já esteja quase te alcançando Se aquele era o único monstro que você estava enfrentando, você poderá pegar seu tesouro, mas não irá ganhar 1 nível Uso único."
+        },
+        {
+                "nome":"PIT BULL",
+                "desc":"Pit Bull. Carta do tipo monstro nível 2.  Se não conseguir derrotá-lo, você pode distraí-lo (fuga automática) soltando uma varinha, vara ou cajado. (Pega Rex!).  Coisa Ruim. Marcas de mordida na sua bunda. Você perde 2 níveis. Ao derrotá-lo você ganha um nível e um tesouro."
+        },
+        {
+                "nome":"CAVALO ZUMBI",
+                "desc":"Cavalo Zumbi.   Morto-vivo. Carta do tipo monstro nível 4.  Mais 5 contra anões. Coisa Ruim. Fede, morde e dá coices. Você perde dois níveis. Ao derrotá-lo você ganha um nível e dois tesouros."
+        },
+        {
+                "nome":"OCTAEDRO GELATINOSO",
+                "desc":"Octaedro Gelatinoso. Carta do tipo monstro nível 2. mais um para fugir. Coisa ruim. Se não conseguir fugir, você terá de largar todos os seus itens grandes. Ao derrotá-lo, ganha um nível e um tesouro."
+        },
+        {
+                "nome":"HIPOPOGRIFO",
+                "desc":"Hipopógrifo. Carta do tipo monstro nível 16. Não persegue personagens de nível 3 ou menos. Coisa Ruim. Você é pisoteado e mastigado. Você larga suas coisas ao fugir. Começando pelo jogador a sua direita, cada jogador pode pegar uma carta de tesouro que está na sua frente ou (sem olhar) pegar uma das cartas da sua mão. Ao derrotá-lo você ganha dois níveis e quatro tesouros."
+        },
+        {
+                "nome":"HALFLING",
+                "desc":"Halfling. Carta do tipo Raça.  Atributos:. Você pode, uma vez por turno, vender um item pelo dobro do preço (os outros itens continuam com o preço normal. Se você falhar em sua primeira tentativa de fuga, pode descartar uma carta para tentar fugir novamente."
+        },
+        {
+                "nome":"ELFO",
+                "desc":"Elfo. Carta do tipo Raça. Atributos. Mais um para fugir. Você ganha um nível para cada monstro que ajudar alguém a matar."
+        },
+        {
+                "nome":"MESTICO MESTIÇO",
+                "desc":"Mestiço. Carta do tipo efeito. Você pode ter duas cartas de Raça e todas as vantagens e desvantagens de ambas. Ou, você pode ter uma carta de Raça e suas vantagens, sem nenhuma de suas desvantagens. Monstros que odeiam Elfos, por exemplo, não receberão bônus contra um meio-elfo. Você perde essa carta se você perder sua carta de raça."
+        },
+        {
+                "nome":"MONSTRO ERRANTE",
+                "desc":"Monstro Errante. Carta do tipo efeito. Use esta carta, junto com um monstro de sua mão, quando alguém (inclusive você) estiver em combate. O seu monstro junta-se ao que já estiver em combate. Some os níveis de ambos. Se o personagem tiver que fugir, resolva as tentativas de fuga separadamente. Na ordem que a vítima escolher."
+        },
+        {
+                "nome":"DEMONIA DEMÔNIA LINGUARUDA",
+                "desc":"Demônia Linguaruda. Carta do tipo monstro nível 12. Uma criatura do inferno. Mais quatro contra clérigos. Você tem que descartar um item (a sua escolha) antes do combate. Coisa Ruim. Um beijo realmente nojento que vai te custar 2 níveis e 3 para elfos. Ao derrotá-la você ganha 1 nível e 3 tesouros."
+        },
+        {
+                "nome":"DA UMA MAOZINHA MÃOZINHA",
+                "desc":"Da uma mãozinha. Carta do tipo efeito. Use esta carta quando estiver em combate. Pegue um item de qualquer um dos outros jogadores. No momento que você o pegar, este item tem que fazer a diferença entre você vencer ou perder aquele combate. Você pode descartar algumas das suas coisas antes de pegar o item, se quiser."
+        },
+        {
+                "nome":"RAS RÃS VOADORAS",
+                "desc":"Rãs Voadoras. Carta do tipo monstro nível 2. Mais um para fugir. Coisa Ruim. Elas mordem. Você perde 2 níveis. Ao derrotá-las você ganha um nível e um tesouro."
+        },
+        {
+                "nome":"REI TUT",
+                "desc":"Rei Tut. Carta do tipo monstro nível 16. Não persegue personagens de nível 3 ou menos. Personagens de níveis maiores perderão 2 níveis, mesmo se escaparem. Coisa Ruim. Você perde todos os seus itens e todas as cartas de sua mão. Ao derrotá-lo, você ganha dois níveis e quatro tesouros."
+        },
+        {
+                "nome":"JOAO JOÃO DO CAIXAO CAIXÃO",
+                "desc":"João do Caixão. Carta do tipo monstro nível 2. Morto Vivo. Se você precisar fugir, você perde um nível mesmo que consiga escapar. Coisa Ruim. Seu golpe ossudo tira dois níveis de você. Ao derrotá-lo você ganha um nível e um tesouro."
+        },
+        {
+                "nome":"ANCIAO ANCIÃO",
+                "desc":"Ancião. Carta do tipo efeito. Adiciona mais 10 para o nível do monstro. Use durante o combate. Se o monstro for derrotado, compre dois tesouros adicionais."
+        },
+        {
+                "nome":"MAGO",
+                "desc":"Mago. Carta do tipo classe. Habilidade Magia de voo. Você pode descartar até três cartas enquanto estiver fugindo. Cada uma delas lhe dará um bônus de mais um para a fuga. Habilidade enfeitiçar. Você pode descartar toda a sua mão para enfeitiçar um único monstro em vez de lutar contra ele. Descarte o monstro e pegue o tesouro dele, mas não ganhe níveis. Se tiver outro monstro no combate, enfrente-o normalmente."
+        },
+        {
+                "nome":"LADRÃO LADRAO",
+                "desc":"Ladrão. Carta do tipo classe. Habilidade Apunhalar pelas costas. Você pode descartar uma carta para apunhalar outro jogador pelas costas (-2 no combate). Você só pode fazer isso uma vez por vítima, por combate, mas se houver 2 jogadores combatendo um monstro juntos, você pode apunhalar ambos. Habilidade Roubo. Você pode descartar uma carta para tentar roubar um item pequeno que esteja sendo carregado por algum outro jogador. Jogue um dado. No caso de 4 ou mais, você tem sucesso, caso contrário, você se estropia e perde um nível."
+        },
+        {
+                "nome":"GUERREIRO",
+                "desc":"Guerreiro. Carta do tipo classe. Habilidade Fúria Berseker. Você pode descartar até três cartas durante o combate. Cada uma lhe dá um bônus de mais um. Habilidade Empate. Você vence os combates mesmo no empate."
+        },
+        {
+                "nome":"MALDICAO MUDANCA MUDANCA DE CLASSE",
+                "desc":"Maldição! Mudança de classe. Carta do tipo maldição. Se você não tiver nenhuma classe neste momento, esta maldição não terá efeito. Caso contrário, procura, a partir do topo, uma carta de classe na pilha de descarte. A primeira carta de classe que aparecer, substitui sua classe. Se não encontrar nenhuma carta de classe na pilha de descarte, você simplesmente perde sua classe."
+        },
+        {
+                "nome":"MALDICAO PATO DO APOCALIPSE",
+                "desc":"Maldição! Pato do Apocalipse. Carta do tipo maldição. Você já deve ter aprendido que não se deve pegar um pato numa masmorra. Você perde dois níveis."
+        },
+        {
+                "nome":"MALDICAO REALMENTE IRRITANTE",
+                "desc":"Maldição realmente irritante. Carta do tipo Maldição. Perca o item que lhe dá o maior bônus."
+        },
+        {
+                "nome":"MALDICAO Perca 1 Nivel",
+                "desc":"Maldição. Carta do tipo Maldição. Perca um nível."
+        },
+        {
+                "nome":"MALDICAO ESPELHO MAGICO",
+                "desc":"Maldição. Espelho Mágico. Carta do tipo Maldição. Você está amaldiçoado. Você não poderá usar nenhum bônus de armas no seu próximo combate (só nele). Você se livrará da maldição se usar um anel do desejo antes do próximo combate."
+        },
+        {
+                "nome":"MALDICAO PERCA 1 I ITEM GRANDE",
+                "desc":"Maldição! Perca um item grande. Carta do tipo Maldição. Escolha um item grande e o descarte."
+        },
+        {
+                "nome":"MALDICAO GALINHA NA CABECA",
+                "desc":"Maldição! Galinha na cabeça. Carta do tipo Maldição. Você recebe menos um em todas as jogadas de dados. Qualquer maldição ou coisa ruim que remover algo que estiver usando em sua cabeça, também pode remover a galinha."
+        },
+        {
+                "nome":"MALDICAO Perca qualquer coisa usando na cabeça",
+                "desc":"Maldição. Carta do tipo Maldição. Perca qualquer coisa que estiver usando na cabeça."
+        },
+        {
+                "nome":"MALDICAO PERCA 2 CARTAS",
+                "desc":"Maldição! Perca duas cartas. Carta do tipo maldição. Primeiro, o jogador que se encontra à esquerda da vítima rouba uma carta da mão dela e a guarda. Depois, o jogador à direita rouba outra."
+        },
+        {
+                "nome":"MALDICAO IMPOSTO DE RENDA",
+                "desc":"Maldição! Imposto de Renda. Carta do tipo maldição. Descarte um item à sua escolha. Cada um dos outros jogadores agora tem que descartar um item, ou itens que tenha no mínimo o mesmo valor do item que você descartou. Se não tiverem o suficiente para pagar o total do imposto eles terão de  descartar todos os itens e perderão 1 nível."
+        },
+        {
+                "nome":"MALDICAO Perca os calcados estiver",
+                "desc":"Maldição. Carta do tipo Maldição. Perca os calçados que estiver usando."
+        },
+        {
+                "nome":"MALDICAO MUDANCA DE SEXO",
+                "desc":"Maldição! Mudança de sexo. Carta do tipo maldição. Você recebe menos 5 no próximo combate devido à distração. Depois disso, não há mais penalidades. Contudo, a mudança será permanente."
+        },
+        {
+                "nome":"INTELIGENTE",
+                "desc":"Inteligente. Carta do tipo efeito. Mais cinco para o nível do monstro. Use durante o combate. Se o monstro for derrotado, compre um tesouro adicional."
+        },
+        {
+                "nome":"AMIGUINHO",
+                "desc":"Amiguinho. Carta do tipo efeito. Outro monstro surge, com o mesmo nível e com os mesmos bônus. Se os monstros forem derrotados, compre tesouros e ganhe níveis para cada um deles."
+        },
+        {
+                "nome":"EM FURIA",
+                "desc":"Em Fúria. Carta do tipo efeito. Mais cinco para o nível do monstro. Use durante o combate. Se o monstro for derrotado, compre um tesouro adicional."
+        },
+        {
+                "nome":"ISSO E TRAPACA",
+                "desc":"Isso é Trapaça. Carta do tipo efeito. Você pode ter e pode usar qualquer item que, de outra maneira, infringiria as regras. Coloque esta carta junto com aquele item. Descarte-a quando você perder aquele item."
+        },
+        {
+                "nome":"ILUSAO",
+                "desc":"Ilusão. Carta do tipo Efeito. Use esta carta durante qualquer combate. Descarte qualquer monstro desse combate, junto com quaisquer cartas que estiverem sido usadas para modificá-lo, e substitua por uma carta de monstro da sua mão."
+        },
+        {
+                "nome":"EM HORARIO DE ALMOCO",
+                "desc":"Em horário de almoço. Carta do tipo efeito. Os monstros dessa sala estão em horário de descanso. Use esta carta durante qualquer combate. O jogador que estiver enfrentando os monstros deve descartá-los e comprar duas cartas de tesouros imediatamente."
+        },
+        {
+                "nome":"BEBE",
+                "desc":"Bebê. Carta do tipo efeito. Menos cinco para o nível do monstro. Use durante o combate. Se o monstro for derrotado, compre um tesouro a menos (no mínimo um)."
+        },
+        {
+                "nome":"SUPER MUNCHKIN",
+                "desc":"Super Munchkin. Carta do tipo efeito. Você pode ter duas cartas de classe e todas as vantagens e desvantagens de ambas. Ou, você pode ter uma carta de classe e suas vantagens, sem nenhuma de suas desvantagens. Monstros que odeiam clérigos, por exemplo, não receberão bônus contra um super-clérigo. Você perde essa carta se você perder sua carta de classe."
+        },
+        {
+                "nome":"GALINHA ANABOLIZADA",
+                "desc":"Galinha Anabolizada. Carta do tipo monstro nível 2. Frango frito é uma delícia. Ganhe um nível adicional instantaneamente se você a derrotar usando fogo ou chamas. Coisa Ruim. As bicadas são muito doloridas. Você perde um nível. Ao derrotá-lo, você ganha um nível e um tesouro."
+        },
+        {
+                "nome":"DUENDE LEPROSO",
+                "desc":"Duende Leproso. Carta do tipo monstro nível 4. Ele é nojento. Mais cinco contra elfos. Coisa Ruim. Ele leva 2 dos seus Itens, escolhidos pelos jogadores que estão ao seu lado. Ao derrotá-lo, você ganha um nível e dois tesouros."
+        },
+        {
+                "nome":"HARPIAS",
+                "desc":"Harpias. Carta do tipo monstro nível 4. Elas resistem à magia. Mais cinco contra magos. Coisa ruim. A música delas é ruim demais. Você perde dois níveis. Ao derrotá-las, você ganha um nível e dois tesouros."
+        },
+        {
+                "nome":"GORFOMON",
+                "desc":"Gorfomón. Carta do tipo monstro nível 6. Ganhe mais um nível adicional se você derrotá-lo sem nenhuma ajuda ou bônus. Coisa ruim. Ataque de projéteis de vômito. Descarte toda sua mão. Ao derrotá-lo você ganha um nível e dois tesouros."
+        },
+        {
+                "nome":"MANTICORNITORRINCO",
+                "desc":"Manticornitorrinco. Carta do tipo monstro nível 6. Resiste à magia. Mais 6 contra magos. Coisa ruim. Ou você descarta toda sua mão ou perde dois níveis. Ao derrotá-lo, você ganha um nível e dois tesouros."
+        },
+        {
+                "nome":"CORETO ATERRORIZANTE",
+                "desc":"Coreto Aterrorizante. Carta do tipo de monstro nível 8. Nada pode ajudá-lo. Você tem de enfrentar o coreto sozinho. Coisa ruim. Você perde 3 níveis. Ao derrotá-lo, você ganha um nível e dois tesouros."
+        },
+        {
+                "nome":"VASO DE PLANTA",
+                "desc":"Vaso de Planta. Carta do tipo monstro nível um. Os elfos compram um tesouro adicional depois de derrotá-la. Coisa Ruim. Nenhuma. A fuga é automática. Ao derrotá-la, você ganha um nível e um tesouro."
+        },
+        {
+                "nome":"DRAGAO DE PLUTONIO",
+                "desc":"Dragão de Plutônio. Carta do tipo monstro nível 20. Não persegue personagens de nível 5  ou menos. Coisa ruim. Você é assado e devorado. Está morto. Ao derrotá-lo, você ganha 2 níveis e cinco tesouros."
+        },
+        {
+                "nome":"POLVOZILLA",
+                "desc":"Polvozilla. Carta do tipo monstro nível 18. Pegajoso. Elfos ganham menos 4. Não perseguem personagens de nível 4 ou menos, com exceção de elfos. Coisa ruim. Você é agarrado, coberto de limo, esmagado e tragado. você está morto, completamente morto. Alguma dúvida? Ao derrotá-lo, você ganha dois níveis e quatro tesouros."
+        },
+        {
+                "nome":"NOIVAMPIRAS",
+                "desc":"Noivampiras. Carta do tipo monstro nível 8. Nenhum item pode ajudá-lo. Lute usando apenas o nível do seu personagem. Coisa ruim. O seu nível fica igual ao menor nível dos personagens que estiverem jogando. Ao derrotá-las você ganha um nível e dois tesouros."
+        },
+        {
+                "nome":"CHUPA CARA",
+                "desc":"Chupa Cara. Carta do tipo monstro nível 8. Ele é nojento. Mais seis contra elfos. Coisa Ruim. Quando ele chupar sua cara ele levará junto o que estiver usando na cabeça. Descarte tudo que estiver usando na cabeça e perca um nível. Ao derrotá-lo você ganha um nível e dois tesouros."
+        },
+        {
+                "nome":"3872 ORCS",
+                "desc":"3872 Orcs. Carta do tipo monstro nível 10. Mais seis contra anões devido à rixas antigas. Coisa ruim. Jogue um dado. se o resultado for um ou dois, eles o pisoteiam até a morte. Caso contrário você perde a quantidade de níveis mostrada no dado. ao derrotá-los, você ganha um nível e 3 tesouros."
+        },
+        {
+                "nome":"TROLL DA INTERNET",
+                "desc":"Troll da internet. Carta do tipo monstro nível 10. Ele não tem poderes especiais e está muito bravo por causa disso. Coisa ruim. Ele acaba com o equilíbrio do jogo forçando você a deixar os jogadores com maior nível peguem um item de você. Ao derrotá-lo, você ganha um nível e três tesouros."
+        },
+        {
+                "nome":"CARRAPATOS",
+                "desc":"Carrapatos. Carta do tipo monstro nível 1. Não é possível fugir. Coisa ruim. Descarte sua armadura e todos os itens abaixo da cintura."
+        },
+        {
+                "nome":"ADVOGADOS",
+                "desc":"Advogados. Carta do tipo monstro nível 6. Não atacam ladrões, uma cortesia profissional. Um ladrão que encontrar um advogado pode, em vez disso, descartar dois tesouros e comprar dois novos tesouros fechados. Coisa ruim. Eles o atingem com uma intimação. Deixa que cada um dos jogadores compre uma carta de sua mão, começando pelo jogador da sua esquerda. Descarte todas as cartas que sobrarem. Ao derrotá-lo, você ganha um nível e dois tesouros."
+        },
+        {
+                "nome":"VENDEDOR DE SEGUROS",
+                "desc":"Vendedor de Seguros. Carta do tipo monstro nível 14. O seu nível não conta. Lute contra ele utilizando apenas os seus bônus. Coisa ruim. Você compra o seguro e perde itens que totalizem 1000 peças de ouro. Se não tiver tudo isso, você perde tudo que tiver. Ao derrotá-lo, você ganha um nível e 4 tesouros."
+        },
+        {
+                "nome":"AMAZONA",
+                "desc":"Amazona. Carta do tipo monstro nível 8. Não ataca jogadores do sexo feminino e nem jogadores do sexo masculino que tiverem trocado de sexo. Em  vez disso ela dá um tesouro para eles. Coisa ruim. Você apanhou de uma menina, seu orgulho de munchkin macho foi-se embora, você perde suas classes. Se não tiver nenhuma classe, você perde 3 níveis. Ao derrotá-la você ganha um nível e dois tesouros."
+        },
+        {
+                "nome":"GOSMA GRUDENTA",
+                "desc":"Gosma Grudenta. Carta do tipo monstro nível 1. Gosma nojenta. Mais 4 contra elfos. Coisa ruim. Descarte os calçados que estiver usando. Você perde um nível se estiver sem calçados. Ao derrotá-lo, você ganha um nível e um tesouro."
+        },
+        {
+                "nome":"TIBIO E PERONIO CIRURGIA ORTOPEDICA",
+                "desc":"Tíbio e Perônio! Cirurgia ortopédica. Carta do tipo monstro nível 16. não persegue personagens de nível 3 ou menos. Personagens de níveis maiores perderão dois níveis mesmo se escaparem. Coisa ruim. Você volta para o nível um. Ao derrotá-los, você ganha dois níveis e 4 tesouros."
+        },
+        {
+                "nome":"GOLEM DE OS QUE FUMAM A PEDRA",
+                "desc":"Golem de (os que fumam a) Pedra. Carta do tipo monstro nível 14. Você pode escolher entre lutar contra o golem ou então acenar, continuar andando e deixar que ele fique com o tesouro. Exceção. Os halflings são saborosos e são obrigados a lutar. Coisa ruim. Ele está com larica. Ele engole você e você morre. Ao derrotá-lo, você ganha um nível e 4 tesouros."
+        },
+        {
+                "nome":"NERD HISTERICO",
+                "desc":"Nerd Histérico. Carta do tipo monstro nível 6. Mais 6 contra guerreiros. Coisa ruim. Você se torna um humano chato e normal. Descarte todas suas cartas de raça e classe que tiver em jogo. Ao derrotá-lo, você ganha um nível e dois tesouros."
+        },
+        {
+                "nome":"PE GRANDE",
+                "desc":"Pé grande. Carta do tipo monstro nível 12. Mais 3 contra anões e halflings. Coisa ruim. Te pisoteia e come seu chapéu. Você perde qualquer coisa que estiver usando na cabeça. Ao derrotá-lo, você ganha um nível e 3 tesouros."
+        },
+        {
+                "nome":"DOPPELGANGER",
+                "desc":"Dopplelganger. Tesouro do tipo efeito e custa trezentas peças de ouro. Invoca uma cópia exata do seu personagem, que lutará ao seu lado e, portanto, dobrará seu nível real e todos os seus bônus. Você só pode usar o Dopplelganger se for o único jogador participando do combate. Uso único. "
+        },
+        {
+                "nome":"ANEL DO DESEJO",
+                "desc":"Anel do desejo. Tesouro do tipo efeito e custa quinhentas peças de ouro. Cancela qualquer maldição. Use a qualquer momento. Uso único."
+        },
+        {
+                "nome":"BARREIRA INSTANTANEA",
+                "desc":"Barreira Instantânea. Tesouro do tipo efeito e custa trezentas peças de ouro. Permite que um ou dois jogadores escapem automaticamente de qualquer combate. Uso único."
+        },
+        {
+                "nome":"TUBO DE COLA",
+                "desc":"Tubo de cola. Tesouro do tipo efeito e custa 100 peças de ouro. Use quando alguém fugir de um combate com sucesso, por qualquer motivo. Aquele jogador deverá jogar novamente sua tentativa de fuga, mesmo que tenha sido automática da primeira vez. Uso único."
+        },
+        {
+                "nome":"DADO VICIADO",
+                "desc":"Dado viciado. Tesouro do tipo efeito e custa trezentas peças de ouro. Use depois que você tiver jogado o dado, por qualquer motivo. Vire o dado de forma que o número de sua escolha fique voltado par acima. Aquele será o resultado da sua jogada. Uso único."
+        },
+        {
+                "nome":"TESOUROS",
+                "desc":"Tesouros. Tesouro do tipo efeito. Compre mais 3 cartas de tesouro imediatamente. Se você comprou esta carta fechada, comprará as outras também desta forma. Caso contrário, compre-as abertas. Uso único."
+        },
+        {
+                "nome":"ESCUDEIRO FIEL",
+                "desc":"Escudeiro Fiel. Tesouro do tipo efeito. Permite que você carregue um item adicional, mesmo se as regras não permitirem. Se perder seu escudeiro, também perde seu item. Você pode descartar seu escudeiro fiel para escapar automaticamente de qualquer monstro. Coloque essa carta à sua frente, junto de seus tesouros."
+        },
+        {
+                "nome":"AGUA MINERAL DE MARCA",
+                "desc":"Água mineral de marca. Tesouro do tipo poção e custa 100 peças de ouro. Use durante qualquer combate. Uso único e somente para ajudar os elfos. Dá mais dois para cada elfo no combate."
+        },
+        {
+                "nome":"MISSIL MAGICO",
+                "desc":"Míssil Mágico. Tesouro do tipo poção e custa trezentas peças de ouro. Use durante qualquer combate. Mais cinco para qualquer um dos lados. Uso único."
+        },
+        {
+                "nome":"POCAO DE VENENO FLAMEJANTE",
+                "desc":"Poção de veneno flamejante. Tesouro do tipo poção e custa 100 peças de ouro. Use durante qualquer combate. Dá mais três para qualquer um dos lados. Uso único."
+        },
+        {
+                "nome":"POCAO DE POLIMORFISMO",
+                "desc":"Poção de polimorfismo. Tesouro do tipo poção e custa mil e trezentas peças de ouro. Use durante o combate, apenas uma vez. Transforma qualquer monstro em um papagaio que sai voando e deixa seu tesouro para trás. Uso único."
+        },
+        {
+                "nome":"POCAO DA TRANSFERENCIA",
+                "desc":"Poção da transferência. Tesouro do tipo poção e custa trezentas peças de ouro. Use durante qualquer combate. Qualquer outro jogador, à sua escolha, luta contra os monstros, ele pode pedir ajuda normalmente, sobe de nível normalmente e recebe tesouro, se vencer. Depois disso, o jogador original volta a jogar seu turno e pode saquear a sala independente de o combate ter sido vencido ou perdido. Uso único."
+        },
+        {
+                "nome":"POCAO DA AMIZADE",
+                "desc":"Poção da amizade. Tesouro do tipo poção e custa duzentas peças de ouro. Use durante qualquer combate. Descarte todos os monstros participantes do combate. Nenhum tesouro é ganho. Uso único."
+        },
+        {
+                "nome":"POCAO DA CORAGEM ESTUPIDA",
+                "desc":"Poção da coragem estúpida. Tesouro do tipo poção e custa 100 peças de ouro. Use durante qualquer combate. Dá mais dois para qualquer um dos lados. Uso único."
+        },
+        {
+                "nome":"ISOTONICO SABOR ENXOFRE",
+                "desc":"Isotônico sabor enxofre. Tesouro do tipo poção e custa duzentas peças de ouro. Use durante qualquer combate. Dá mais dois para qualquer um dos lados. Uso único."
+        },
+        {
+                "nome":"POCAO ACIDA ELETRORRADIOATIVA",
+                "desc":"Poção ácida eletrorradioativa. Tesouro do tipo poção e custa duzentas peças de ouro. Use durante qualquer combate. Dá mais cinco para qualquer um dos lados. Uso único."
+        },
+        {
+                "nome":"POCAO EXPLOSIVA CONGELANTE",
+                "desc":"Poção explosiva congelante. Tesouro do tipo poção e custa 100 peças de ouro. Use durante qualquer combate. Dá mais três para qualquer um dos lados. Uso único."
+        },
+        {
+                "nome":"BEXIGAS BONITINHAS",
+                "desc":"Bexigas Bonitinhas. Tesouro do tipo poção. Use durante qualquer combate para distrair. Dá mais cinco para qualquer um dos lados. Uso único."
+        },
+        {
+                "nome":"POCAO DE HALITOSE",
+                "desc":"Poção de halitose. Tesouro do tipo poção e custa 100 peças de ouro. Use durante qualquer combate. Dá mais dois para qualquer um dos lados ou mata instantaneamente o nariz flutuante. Uso único."
+        },
+        {
+                "nome":"MASSACRE DE FORMIGAS COM AGUA FERVENDO",
+                "desc":"Massacre de formigas com água fervendo. Carta Tesouro do tipo Subir de nível. Suba um nível."
+        },
+        {
+                "nome":"CHORAMINGAR COM O MESTRE",
+                "desc":"Choramingar com o mestre.  Carta Tesouro do tipo Subir de nível. Você não pode usar esta carta se for um dos jogadores com o maior nível. Suba um nível."
+        },
+        {
+                "nome":"1000 PECAS DE OURO",
+                "desc":"1000 Peças de ouro.  Carta Tesouro do tipo Subir de nível. Suba um nível."
+        },
+        {
+                "nome":"INVOCAR REGRAS OBSCURAS",
+                "desc":"Invocar regras obscuras.  Carta Tesouro do tipo Subir de nível. Suba um nível."
+        },
+        {
+                "nome":"GESTO DE CARINHO INESPERADO",
+                "desc":"Gesto de carinho inesperado.  Carta Tesouro do tipo Subir de nível. Ao invés de subir um nível, pode escolher pegar o item com maior bônus de outro jogador. Se o fizer, ele subirá de nível e você não. Suba um nível."
+        },
+        {
+                "nome":"MUTILAR OS CADAVERES",
+                "desc":"Mutilar os cadáveres.  Carta Tesouro do tipo Subir de nível. Esta carta só pode ser usada depois do combate, mas não necessariamente do seu combate. Suba um nível."
+        },
+        {
+                "nome":"POCAO DE VIRAR MACHO",
+                "desc":"Poção de virar macho.  Carta Tesouro do tipo Subir de nível. Suba um nível."
+        },
+        {
+                "nome":"MATAR O ESCUDEIRO",
+                "desc":"Matar o escudeiro.  Carta Tesouro do tipo Subir de nível. Você pode usar esta carta se o Escudeiro estiver em jogo (independente de quem for seu dono). Descarte o escudeiro. Suba um nível."
+        },
+        {
+                "nome":"SUBORNAR O MESTRE COM COMIDA",
+                "desc":"Subornar o mestre com comida.  Carta Tesouro do tipo Subir de nível. Suba um nível."
+        },
+        {
+                "nome":"ERRO DE SOMA CONVENIENTE",
+                "desc":"Erro de soma conveniente.  Carta Tesouro do tipo Subir de nível. Suba um nível."
+        },
+        {
+                "nome":"MARTELO DETONA JOELHO",
+                "desc":"Martelo detona joelho. Carta Tesouro do tipo item .  É um item de uma mão e Custa 600 peças de ouro . Só pode ser usado por anões e concede mais 4 de bônus ao usuário."
+        },
+        {
+                "nome":"SERRA ELETRICA DE MUTILACAO SANGRENTA",
+                "desc":"Serra elétrica de mutilação sangrenta. Carta Tesouro do tipo item .  É um item de duas mãos e Custa 600 peças de ouro . Concede mais 3 de bônus ao usuário."
+        },
+        {
+                "nome":"ARMADURA DE COURO",
+                "desc":"Armadura de couro. Carta Tesouro do tipo item .  É uma armadura e Custa 200 peças de ouro . Concede mais 1 de bônus ao usuário."
+        },
+        {
+                "nome":"ELMO DA CORAGEM",
+                "desc":"Elmo da coragem. Carta Tesouro do tipo item .  É um item para cabeça e Custa 200 peças de ouro . Concede mais 1 de bônus ao usuário."
+        },
+        {
+                "nome":"ALABARDA SUICA",
+                "desc":"Alabarda suíça. Carta Tesouro do tipo item .  É um item de duas mãos e Custa 600 peças de ouro . Só pode ser usado por humanos e concede mais 4 de bônus ao usuário."
+        },
+        {
+                "nome":"TITULO REALMENTE IMPRESSIONANTE",
+                "desc":"Título realmente impressionante. Carta Tesouro do tipo item .  Concede mais 3 de bônus ao usuário."
+        },
+        {
+                "nome":"ARMADURA DE MITHRIL",
+                "desc":"Armadura de Mithril. Carta Tesouro do tipo item .  É uma armadura grande e Custa 600 peças de ouro . Não pode ser usado por magos e concede mais 3 de bônus ao usuário."
+        },
+        {
+                "nome":"BOTAS DE CHUTAR A BUNDA",
+                "desc":"Botas de chutar a bunda. Carta Tesouro do tipo item .  É um calçado e Custa 400 peças de ouro . Concede mais 2 de bônus ao usuário."
+        },
+        {
+                "nome":"BOTAS PARA CORRER MUITO RAPIDO",
+                "desc":"Botas para correr muito rápido. Carta Tesouro do tipo item .  É um calçado e Custa 400 peças de ouro . Você recebe mais dois para fugir."
+        },
+        {
+                "nome":"FLORETE DA INJUSTICA",
+                "desc":"Florete da injustiça. Carta Tesouro do tipo item .  É um item de uma mão e Custa 600 peças de ouro .Só pode ser usado por elfos e concede mais 3 de bônus ao usuário."
+        },
+        {
+                "nome":"MANTO DAS SOMBRAS",
+                "desc":"Manto das sombras. Carta Tesouro do tipo item . Custa 600 peças de ouro . Só pode ser usado por ladrões e concede mais 4 de bônus ao usuário."
+        },
+        {
+                "nome":"ESPA-DONA ESPA DONA",
+                "desc":"Espa-dona. Carta Tesouro do tipo item .  É um item de uma mão e Custa 400 peças de ouro . Só para jogadoras do sexo feminino (ou rapazes que mudaram de sexo). Concede mais 3 de bônus ao usuário."
+        },
+        {
+                "nome":"MACA AFIADA",
+                "desc":"Maça Afiada. Carta Tesouro do tipo item .  É um item de uma mão e Custa 600 peças de ouro . só pode ser usado por clérigos e concede mais 4 de bônus ao usuário."
+        },
+        {
+                "nome":"ARCO COM FITINHAS",
+                "desc":"Arco com fitinhas. Carta Tesouro do tipo item .  É um item de duas mãos e Custa 800 peças de ouro . só pode ser usado por elfos e concede mais 4 de bônus ao usuário."
+        },
+        {
+                "nome":"ADAGA DA TRAICAO",
+                "desc":"Adaga da traição. Carta Tesouro do tipo item .  É um item para uma mão e Custa 400 peças de ouro . Só pode ser usado por ladrões e concede mais 3 de bônus ao usuário."
+        },
+        {
+                "nome":"TROMBONE ENCANTADO",
+                "desc":"Trombone Encantado. Carta Tesouro do tipo item .  É um item grande de uma mão e Custa 300 peças de ouro . Este sonoro instrumento encantado cativa a seus inimigos. Você recebe mais três para fugir. Compre uma carta de tesouro na saída se escapar com sucesso."
+        },
+        {
+                "nome":"JOELHEIRA DA SEDUCAO",
+                "desc":"Joelheira da sedução. Carta Tesouro do tipo item .  Custa 600 peças de ouro . Não podem ser usadas por clérigos. Se você pedir para alguém de maior nível que você para te ajudar a combater um monstro, este alguém não poderá se recusar e nem pedir qualquer recompensa. Você não sobe de nível nesse combate."
+        },
+        {
+                "nome":"ESPETINHO DE RATO",
+                "desc":"Espetinho de rato. Carta Tesouro do tipo item .  É um item de uma mão. Descarte esta carta para escapar automaticamente de qualquer monstro de nível 8 ou menos. Concede mais 1 de bônus ao usuário."
+        },
+        {
+                "nome":"PEDRA GIGANTE",
+                "desc":"Pedra gigante. Carta Tesouro do tipo item .  É um item grande de duas mãos. Concede mais 3 de bônus ao usuário."
+        },
+        {
+                "nome":"MEIA CALCA DA FORCA DO GIGANTE",
+                "desc":"Meia calça da força do gigante. Carta Tesouro do tipo item . Custa 600 peças de ouro . Não pode ser usado por guerreiros e concede mais 3 de bônus ao usuário."
+        },
+        {
+                "nome":"ARMADURA PEGAJOSA",
+                "desc":"Armadura pegajosa. Carta Tesouro do tipo item .  É uma armadura e Custa 200 peças de ouro . Concede mais 1 de bônus ao usuário."
+        },
+        {
+                "nome":"ELMO CHIFRUDO",
+                "desc":"Elmo chifrudo. Carta Tesouro do tipo item .  É um item para cabeça e Custa 600 peças de ouro . Concede mais 1 de bônus ao usuário e mais 3 para elfos."
+        },
+        {
+                "nome":"JOELHEIRA PONTIAGUDA",
+                "desc":"Joelheira Pontiaguda. Carta Tesouro do tipo item .  Custa 200 peças de ouro . Concede mais um de bônus ao usuário."
+        },
+        {
+                "nome":"ESPADA QUE CANTA E DANCA",
+                "desc":"Espada que canta e dança. Carta Tesouro do tipo item . Custa 400 peças de ouro . Não funciona com ladrões e concede mais 2 de bônus ao usuário."
+        },
+        {
+                "nome":"HAMBURGUER DE CADAVERES COM ANCHOVAS",
+                "desc":"Hambúrguer de cadáveres com anchovas. Carta Tesouro do tipo item .  Custa 400 peças de ouro . Só pode ser usado por halflings e concede mais 3 de bônus ao usuário."
+        },
+        {
+                "nome":"ESCUDO ONIPRESENTE",
+                "desc":"Escudo onipresente. Carta Tesouro do tipo item .  É um item grande de uma mão e Custa 600 peças de ouro . só pode ser usado por guerreiros e concede mais 4 de bônus ao usuário."
+        },
+        {
+                "nome":"CACETE DO COMPLEXO DE INFERIORIDADE",
+                "desc":"Cacete do complexo de inferioridade. Carta Tesouro do tipo item .  É um item de uma mão e Custa 400 peças de ouro . Só para jogadores do sexo masculino, ou garotas que mudaram de sexo. Concede mais 3 de bônus ao usuário."
+        },
+        {
+                "nome":"BANDANA DE MACHAO",
+                "desc":"Bandana de machão. Carta Tesouro do tipo item .  É um item para cabeça e Custa 400 peças de ouro . Só pode ser usado por humanos e concede mais 3 de bônus ao usuário."
+        }
+    ]
+}
