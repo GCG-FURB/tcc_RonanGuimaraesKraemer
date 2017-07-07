@@ -8,7 +8,7 @@ https://ionicframework.com/getting-started/
 
 Iniciar um projeto em branco ionic com o comando:
 
-ionic start <nome-projeto> blanck
+$ ionic start <nome-projeto> blanck
 
 Após isso, deve-se copiar e colar todos os arquivos da pasta Munchkin Recognizer para dentro do projeto, sobstituindo todos os arquivos com mesmo nome.
 Obs.: Deve-se verificar a versão do projeto, pois o mesmo deve ser 1.0 para que o projeto seja compilado.
@@ -17,10 +17,10 @@ Obs.: Deve-se verificar a versão do projeto, pois o mesmo deve ser 1.0 para que
 
 Adicionar os principais plugins com os comandos:
 
-ionic plugin add cordova-plugin-camera
-ionic plugin add cordova-plugin-file-transfer
-ionic plugin add cordova-plugin-tts
-ionic plugin add github.com/macdonst/SpeechRecognitionPlugin
+$ ionic plugin add cordova-plugin-camera
+$ ionic plugin add cordova-plugin-file-transfer
+$ ionic plugin add cordova-plugin-tts
+$ ionic plugin add github.com/macdonst/SpeechRecognitionPlugin
 
 Ao final, deve-se contar na pasta .../project-Name/plugins os seguintes plugins:
 
@@ -39,26 +39,28 @@ phonegap-plugin-speech-recognition
 
 Obs.: Caso a lista esteja incompleta, basta adicionar os plugins faltantes com o comando:
 
-ionic pligin add <nome-do-plugin>
+$ ionic pligin add <nome-do-plugin>
 
 ------------------------------------------------------------------------------------------------------------
 
 Adicionar as plataformas com os comandos:
 
-ionic platform add android
-ionic platform add ios
+$ ionic platform add android
+$ ionic platform add ios
 
 ------------------------------------------------------------------------------------------------------------
 
 Buildar e executar o aplicativo com os comandos:
 
-ionic build android
-ionic run android
+$ ionic build android
+$ ionic run android
 
-ionic build ios
-ionic run ios
+$ ionic build ios
+$ ionic run ios
 
 Obs.: O build e a execução para iOS irá apenas funcionar em computadores com macOS
+Ao adicionar a plataforma iOS pode ocorrer erros por falta de recursos de imagens. Neste caso usar:
+$ ionic resources --icon
 
 ------------------------------------------------------------------------------------------------------------
 
